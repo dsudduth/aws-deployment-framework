@@ -59,3 +59,8 @@ class NoAccountsFoundError(Exception):
      Raised when there are no Accounts found a specific OU defined in the Deployment Map
     """
     pass
+
+class MalformedArnError(Exception):
+  """Raised when an ARN is malformed."""
+
+  pass
